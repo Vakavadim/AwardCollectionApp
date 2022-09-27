@@ -8,17 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		E09DD31C28E343E000725AF9 /* AwardCollectionAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DD31B28E343E000725AF9 /* AwardCollectionAppApp.swift */; };
-		E09DD31E28E343E000725AF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DD31D28E343E000725AF9 /* ContentView.swift */; };
 		E09DD32028E343E100725AF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E09DD31F28E343E100725AF9 /* Assets.xcassets */; };
 		E09DD32328E343E100725AF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E09DD32228E343E100725AF9 /* Preview Assets.xcassets */; };
+		E09DD33228E3441200725AF9 /* LeafView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DD32928E3441200725AF9 /* LeafView.swift */; };
+		E09DD33328E3441200725AF9 /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DD32A28E3441200725AF9 /* GradientRectangles.swift */; };
+		E09DD33428E3441200725AF9 /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DD32B28E3441200725AF9 /* PathView.swift */; };
+		E09DD33528E3441200725AF9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DD32C28E3441200725AF9 /* MainView.swift */; };
+		E09DD33628E3441200725AF9 /* LeafsLogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DD32D28E3441200725AF9 /* LeafsLogoView.swift */; };
+		E09DD33728E3441200725AF9 /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DD32E28E3441200725AF9 /* CurvesView.swift */; };
+		E09DD33828E3441200725AF9 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DD32F28E3441200725AF9 /* StarterView.swift */; };
+		E09DD33928E3441200725AF9 /* CartRacingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DD33028E3441200725AF9 /* CartRacingView.swift */; };
+		E09DD33A28E3441200725AF9 /* AwardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E09DD33128E3441200725AF9 /* AwardsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E09DD31828E343E000725AF9 /* AwardCollectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwardCollectionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E09DD31B28E343E000725AF9 /* AwardCollectionAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardCollectionAppApp.swift; sourceTree = "<group>"; };
-		E09DD31D28E343E000725AF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E09DD31F28E343E100725AF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E09DD32228E343E100725AF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E09DD32928E3441200725AF9 /* LeafView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeafView.swift; sourceTree = "<group>"; };
+		E09DD32A28E3441200725AF9 /* GradientRectangles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
+		E09DD32B28E3441200725AF9 /* PathView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
+		E09DD32C28E3441200725AF9 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E09DD32D28E3441200725AF9 /* LeafsLogoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeafsLogoView.swift; sourceTree = "<group>"; };
+		E09DD32E28E3441200725AF9 /* CurvesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
+		E09DD32F28E3441200725AF9 /* StarterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		E09DD33028E3441200725AF9 /* CartRacingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartRacingView.swift; sourceTree = "<group>"; };
+		E09DD33128E3441200725AF9 /* AwardsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AwardsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +68,15 @@
 			isa = PBXGroup;
 			children = (
 				E09DD31B28E343E000725AF9 /* AwardCollectionAppApp.swift */,
-				E09DD31D28E343E000725AF9 /* ContentView.swift */,
+				E09DD33128E3441200725AF9 /* AwardsView.swift */,
+				E09DD32C28E3441200725AF9 /* MainView.swift */,
+				E09DD32F28E3441200725AF9 /* StarterView.swift */,
+				E09DD33028E3441200725AF9 /* CartRacingView.swift */,
+				E09DD32A28E3441200725AF9 /* GradientRectangles.swift */,
+				E09DD32D28E3441200725AF9 /* LeafsLogoView.swift */,
+				E09DD32928E3441200725AF9 /* LeafView.swift */,
+				E09DD32B28E3441200725AF9 /* PathView.swift */,
+				E09DD32E28E3441200725AF9 /* CurvesView.swift */,
 				E09DD31F28E343E100725AF9 /* Assets.xcassets */,
 				E09DD32128E343E100725AF9 /* Preview Content */,
 			);
@@ -137,7 +161,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E09DD31E28E343E000725AF9 /* ContentView.swift in Sources */,
+				E09DD33428E3441200725AF9 /* PathView.swift in Sources */,
+				E09DD33628E3441200725AF9 /* LeafsLogoView.swift in Sources */,
+				E09DD33A28E3441200725AF9 /* AwardsView.swift in Sources */,
+				E09DD33528E3441200725AF9 /* MainView.swift in Sources */,
+				E09DD33228E3441200725AF9 /* LeafView.swift in Sources */,
+				E09DD33328E3441200725AF9 /* GradientRectangles.swift in Sources */,
+				E09DD33828E3441200725AF9 /* StarterView.swift in Sources */,
+				E09DD33728E3441200725AF9 /* CurvesView.swift in Sources */,
+				E09DD33928E3441200725AF9 /* CartRacingView.swift in Sources */,
 				E09DD31C28E343E000725AF9 /* AwardCollectionAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
