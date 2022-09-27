@@ -14,33 +14,39 @@ struct LeafsLogoView: View {
     var leadColor1: Color
     var leadColor2: Color
     var strokeColor: Color
+    var strokeWidth: Double
     
     var body: some View {
         ZStack {
             LeafView(rotation: leafsIsOpen ? -80 : 0,
                      color1: leadColor1,
                      color2: leadColor2,
-                     strokeColor: strokeColor)
+                     strokeColor: strokeColor,
+                     strokeWidth: strokeWidth)
             .scaleEffect(0.8)
             LeafView(rotation: leafsIsOpen ? -40 : 0,
                      color1: leadColor1,
                      color2: leadColor2,
-                     strokeColor: strokeColor)
+                     strokeColor: strokeColor,
+                     strokeWidth: strokeWidth)
             .scaleEffect(0.9)
             LeafView(rotation: leafsIsOpen ? 80 : 0,
                      color1: leadColor1,
                      color2: leadColor2,
-                     strokeColor: strokeColor)
+                     strokeColor: strokeColor,
+                     strokeWidth: strokeWidth)
             .scaleEffect(0.8)
             LeafView(rotation: leafsIsOpen ? 40 : 0,
                      color1: leadColor1,
                      color2: leadColor2,
-                     strokeColor: strokeColor)
+                     strokeColor: strokeColor,
+                     strokeWidth: strokeWidth)
             .scaleEffect(0.9)
             LeafView(rotation: 0.0,
                      color1: leadColor1,
                      color2: leadColor2,
-                     strokeColor: strokeColor)
+                     strokeColor: strokeColor,
+                     strokeWidth: strokeWidth)
             .scaleEffect(1.2)
             
         }
@@ -58,7 +64,7 @@ struct LeafsLogoView: View {
 
 struct LeafsLogoView_Previews: PreviewProvider {
     static var previews: some View {
-        LeafsLogoView(leafsIsOpen: .constant(true), leadColor1: .blue, leadColor2: .green, strokeColor: .white)
+        LeafsLogoView(leafsIsOpen: .constant(true), leadColor1: .blue, leadColor2: .green, strokeColor: .white, strokeWidth: 14.0)
             .frame(width: 250, height: 250)
 
     }

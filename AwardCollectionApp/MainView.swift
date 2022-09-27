@@ -28,7 +28,8 @@ struct MainView: View {
                 LeafsLogoView(leafsIsOpen: $leafsOpen,
                               leadColor1: .blue,
                               leadColor2: .green,
-                              strokeColor: .white)
+                              strokeColor: .white,
+                              strokeWidth: 14.0)
                     .frame(width: 250, height: 250)
                     .transition(.leadingSlide)
             }

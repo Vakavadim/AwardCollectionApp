@@ -16,7 +16,8 @@ struct AwardsView: View {
                         leafsIsOpen: .constant(true),
                         leadColor1: .blue,
                         leadColor2: .green,
-                        strokeColor: .white
+                        strokeColor: .white,
+                        strokeWidth: 14
                     )
                     .frame(width: 150, height: 150)
                     GradientRectangles()

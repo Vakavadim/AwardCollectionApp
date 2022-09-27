@@ -12,6 +12,7 @@ struct LeafView: View {
     var color1: Color
     var color2: Color
     var strokeColor: Color
+    var strokeWidth: Double
     
     var body: some View {
         GeometryReader { geometry in
@@ -36,7 +37,7 @@ struct LeafView: View {
                     )
                     path.closeSubpath()
                 }
-                .stroke(strokeColor, lineWidth: 14)
+                .stroke(strokeColor, lineWidth: strokeWidth)
                 
                 
                 Path { path in
@@ -68,7 +69,7 @@ struct LeafView: View {
                         endAngle: .degrees(110),
                         clockwise: true)
                 }
-                .stroke(Color.white, lineWidth: 1.5)
+                .stroke(strokeColor, lineWidth: 1.5)
                 
                 Path { path in
                     path.addArc(
@@ -78,7 +79,7 @@ struct LeafView: View {
                         endAngle: .degrees(110),
                         clockwise: true)
                 }
-                .stroke(Color.white, lineWidth: 1.5)
+                .stroke(strokeColor, lineWidth: 1.5)
 
 
                 Path { path in
@@ -89,7 +90,7 @@ struct LeafView: View {
                         endAngle: .degrees(105),
                         clockwise: true)
                 }
-                .stroke(Color.white, lineWidth: 1.5)
+                .stroke(strokeColor, lineWidth: 1.5)
                 
                 Path { path in
                     path.addArc(
@@ -108,7 +109,7 @@ struct LeafView: View {
                         control: CGPoint(x: middle - nearLine / 2.5, y: middle)
                     )
                 }
-                .stroke(Color.white, lineWidth: 2)
+                .stroke(strokeColor, lineWidth: 2)
                 
             }
             .rotationEffect(.degrees(rotation), anchor: .bottom)
@@ -118,7 +119,7 @@ struct LeafView: View {
 
 struct IDrewPathView_Previews: PreviewProvider {
     static var previews: some View {
-        LeafView(rotation: 0.0, color1: .green, color2: .blue, strokeColor: .white)
+        LeafView(rotation: 0.0, color1: .green, color2: .blue, strokeColor: .white, strokeWidth: 14.0)
             .frame(width: 300, height: 300)
     }
 }
